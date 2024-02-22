@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "YAAAAY, ＬＯＶＥ ＹＯＵ ✧˚ ⋆｡˚ ♡ ";
+  titleElement.innerHTML = "YAAAAY ✧˚ ⋆｡˚ ♡ "";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -46,7 +46,7 @@ function generateMessage(noCount) {
     "¿Estás seguro?",
     "Pleaaseeeee",
     "Ya pueeeees :(",
-    "Me pones tiste",
+    "Tiste",
     ":'(",
   ];
 
